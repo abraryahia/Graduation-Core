@@ -1,0 +1,92 @@
+﻿@model Graduation_Core.Models.LoginViewModel
+@{
+    ViewBag.Title = "Index";
+}
+<title>Profile @Model.FullName</title>
+
+<div class="container" style="margin-top:5%">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/loading.jpg" />
+
+                <div class="card-body">
+                    <h5 class="card-title">Send Package</h5>
+                    <p claxss="card-text">Send Package And Get Fast And Very Good Offers</p>
+                    <a href="~/package/send" class="btn btn-primary">Send Package</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/proship-track-and-trace.jpg" style="height:11rem" />
+                <div class="card-body">
+                    <h5 class="card-title">Track   Package</h5>
+                    <p class="card-text">Track Your Package Point By Point  And Make Sure Your Package Goes The Right Way    </p>
+                    <a href="#" class="btn btn-primary" id="prfTrack">Track Package</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/report-image.png" style="height:14rem" />
+                <div class="card-body">
+                    <h5 class="card-title">Make Report</h5>
+                    <p class="card-text">Make Report For Your Packages</p>
+                    <a href="~/Package/report" class="btn btn-primary">Make Report</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<br />
+<div id="trPar" class="row col-lg-4 mx-auto">
+    <partial name="_TrackPackage" />
+</div>
+
+<div id="findPackage" class="container col-lg-4 col-md-4 col-sm-6 ">
+    <h2 class="text-center text-info">Find Package</h2>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery.unobtrusive-ajax.js"></script>
+    <form asp-action="SearchPakage" asp-controller="Manage"
+          data-ajax="true"
+          data-ajax-method="GET"
+          data-ajax-mode="replace"
+          data-ajax-update="#packd">
+        <input type="text" name="ID" placeholder="Package ID" class="form-control" />
+        <input type="submit" value="Search" class="btn btn-block btn-primary" style="margin-top:2%" />
+    </form>
+</div>
+<div id="packd">
+
+</div>
+<br />
+<div id="SendMail" class="container col-lg-4 col-md-4 col-sm-6 ">
+    <h2 class="text-center text-info">Send Mail</h2>
+    <div id="packdata">
+        <form asp-action="SendMail" asp-controller="Manage"
+              data-ajax="true"
+              data-ajax-method="GET"
+              data-ajax-update="#packdata">
+            <input type="text" name="pid" class="form-control" placeholder="Your Package ID" style="margin-top:2%" />
+            <input type="email" name="emailTo" class="form-control" placeholder="Your Email" style="margin-top:2%" />
+            <input type="text" name="subject" class="form-control" placeholder="Subject :" style="margin-top:2%" />
+            <textarea class="form-control" name="message" style="margin-top:2%" placeholder="Describe Your Issue"></textarea>
+            <input type="submit" class="btn btn-warning text-white" value="Send" style="margin-top:1%" />
+        </form>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#trPar').hide();
+        $('#prfTrack').click(function () {
+            $('#trPar').toggle(300);
+        });
+
+    });
+</script>
+<br />
+<br />

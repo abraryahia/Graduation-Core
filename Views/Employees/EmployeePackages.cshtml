@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Graduation_Core.Models.PackagesInfo>
+
+@{
+    ViewData["Title"] = "EmployeePackages";
+    var empl = ViewBag.emp as Employee;
+}
+<div class="alert alert-warning  text-center">
+    <span>Employee @empl.EmpName Packages</span>
+</div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Address Details</th>
+                <th>SSN</th>
+                <th>City</th>
+                <th>Line</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>@empl.EmpName</td>
+                <td>@empl.EmpMobile</td>
+                <td>@empl.EmpEmail</td>
+                <td>@empl.EmpAddress</td>
+                <td>@empl.EmpAddressDetails</td> 
+                <td>@empl.EmpSsn</td>
+                <td>@{ var city = new DMSContext().City.FirstOrDefault(ct => ct.CId == empl.EmpCId).CName;} @city</td>
+                <td>
+                    @{
+                        var loc = new DMSContext().Locations.FirstOrDefault(l => l.LId == empl.EmpLId);
+                        var line = loc.LFrom + " <===> " + loc.LTo;
+
+                    }
+                    @line
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+@foreach (var item in Model)
+{
+    if (item.PDeliverStatus == "yes")
+    {
+        <div class="accordion" id="accordionExample">
+            <div class="card bg-success text-white text-decoration-none btn-link " style="cursor:pointer"  data-toggle="collapse" data-target="#collapseOne-@item.PId" aria-expanded="true" aria-controls="collapseOne">
+                <div class="text-right mb-2"><span class="float-left left ">Delivery Date : @item.Deleverydate</span> Delivered : @item.PDeliverStatus</div>
+            </div>
+        </div>
+    }
+    else if (item.PDeliverStatus == "no")
+    {
+        if (item.Deleverydate < DateTime.Now.Date.Date)
+        {
+            <div class="accordion" id="accordionExample">
+                <div class="card text-white text-decoration-none btn-link" style="background:#ff9696;cursor:pointer"  data-toggle="collapse" data-target="#collapseOne-@item.PId" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="text-right mb-2"><span class="float-left left ">Delivery Date : @item.Deleverydate</span> Delivered : @item.PDeliverStatus</div>
+                </div>
+            </div>
+        }
+        else if (item.Deleverydate.Value == DateTime.Now.Date)
+        {
+            <div class="" id="accordionExample">
+                <div class="card  text-decoration-none "  style="background: #F6FFC9;cursor:pointer"  data-toggle="collapse" data-target="#collapseOne-@item.PId" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="text-right mb-2"><span class="float-left left ">Delivery Date : @item.Deleverydate</span> Delivered : @item.PDeliverStatus</div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="accordion" id="accordionExample">
+                <div class="card bg-info  text-white text-decoration-none btn-link" style="cursor:pointer"  data-toggle="collapse" data-target="#collapseOne-@item.PId" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="text-right mb-2"><span class="float-left left ">Delivery Date : @item.Deleverydate</span> Delivered : @item.PDeliverStatus</div>
+                </div>
+            </div>
+        }
+    }
+
+    <div id="collapseOne-@item.PId" class="collapse mb-0" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+            <partial name="_PackageDetails" model="@item" view-data="this.ViewData" />
+        </div>
+    </div>
+}
+
+
+

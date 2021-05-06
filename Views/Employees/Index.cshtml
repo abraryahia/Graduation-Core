@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Graduation_Core.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="alert alert-primary  text-center" role="alert">
+    <div class="float-left">
+        <a asp-action="Create" style="text-decoration:none" data-toggle="modal" data-target="#createModal">Add Employee<i class="fas fa-user-plus "></i></a>
+    </div>
+    Admin Dashboard
+</div>
+
+<table class="table col-lg-12 table-striped">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Mobile
+            </th>
+            
+            <th>
+                Address
+            </th>
+            <th>
+                SSN
+            </th>
+          
+            <th>
+                City
+            </th>
+            <th>
+                Location
+            </th>
+            <th>Controls</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a  href="~/Employees/EmployeePackages?id=@item.EmpId">
+                        @Html.DisplayFor(modelItem => item.EmpName)
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpMobile)
+                </td>
+               
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpSsn)
+                </td>
+               
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpC.CName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpL.LTo)
+                </td>
+                <td>
+                    @* Employees *@
+                    <a asp-action="Edit" data-toggle="modal" data-target="#editModal-@item.EmpId" class="btn-primary btn"><i class="fas fa-pen "></i></a>
+                    <a asp-action="Delete" data-toggle="modal" data-target="#deleteModal-@item.EmpId" class="btn btn-danger" asp-route-id="@item.EmpId"><i class="fas fa-trash-alt"></i></a>
+                    <div class="modal fade" id="deleteModal-@item.EmpId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <partial name="_Delete" model="@item" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="editModal-@item.EmpId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+
+                                    <partial name="_Edit" model="@item" view-data="@this.ViewData" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+
+                                        <partial name="_Add" model="new Employee()" view-data="this.ViewData"/>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+

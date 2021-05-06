@@ -1,0 +1,138 @@
+﻿@model Graduation_Core.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<div class="alert alert-warning text-center mx-auto">
+    You Are Editing Employee @Model.EmpName Data
+</div>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="EmpId" />
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <div class="form-group">
+
+                        <input asp-for="EmpName" class="form-control" />
+                        <span asp-validation-for="EmpName" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td>
+                    <div class="form-group">
+
+                        <input asp-for="EmpMobile" class="form-control" />
+                        <span asp-validation-for="EmpMobile" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <div class="form-group">
+
+                        <input asp-for="EmpEmail" class="form-control" />
+                        <span asp-validation-for="EmpEmail" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <div class="form-group">
+
+                        <input asp-for="EmpAddress" class="form-control" />
+                        <span asp-validation-for="EmpAddress" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>SSN</td>
+                <td>
+                    <div class="form-group">
+
+                        <input asp-for="EmpSsn" class="form-control" />
+                        <span asp-validation-for="EmpSsn" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <div class="form-group">
+                        <select asp-for="EmpCId" class="form-control" id="eCity" asp-items="@ViewBag.cities"></select>
+                        <span asp-validation-for="EmpCId" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Details</td>
+                <td>
+                    <div class="form-group">
+                        <input asp-for="EmpAddressDetails" class="form-control" />
+                        <span asp-validation-for="EmpAddressDetails" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Working Line</td>
+                <td>
+                    <div class="form-group">
+
+                        <select asp-for="EmpLId" class="form-control" id="eLocation" asp-items="ViewBag.locs"></select>
+                        <span asp-validation-for="EmpLId" class="text-danger"></span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <div class="modal-footer" role="alert">
+            <a asp-action="Index" class="btn btn-success" data-dismiss="modal" aria-label="Close"><i class="fas fa-chevron-circle-left "></i> Close</a>
+            <button type="submit" class="btn btn-secondary text-white"><i class="fas fa-save"></i>Save</button>
+        </div>
+
+    </div>
+</form>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+       
+        $('#eCity').change(function () {
+           var sel = document.getElementById('eCity');
+           var current = sel.value;
+            $.ajax({
+
+                url: '@Url.Action("getlocationsbyid","Employees")',
+                data: { id: current },
+                type: "GET",
+                success: function (result) {
+                    if (result.length > 1) {
+                        $('#eLocation').children().remove();
+                        for (var i = 0; i < result.length; i++) {
+                            var option = document.createElement('option');
+                            option.value = result[i].value;
+                            option.innerHTML = result[i].text;
+                            $('#eLocation').append(option);
+                            $('#eLocation').show();
+                            
+                        }
+                    }
+                }
+            });
+        });
+    });
+</script>

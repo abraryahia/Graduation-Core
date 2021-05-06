@@ -1,0 +1,44 @@
+﻿@model Graduation_Core.Models.ReceiverInfo
+
+    <div class="alert alert-success mx-auto text-center">
+        Reciver @Model.RName Info
+    </div>
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>@Model.RName</td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td>@Model.RMobile</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Model.REmail</td>
+        </tr>
+        <tr>
+            <td>SSN</td>
+            <td>@Model.RSsn</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>@Model.RAddress</td>
+        </tr>
+        <tr>
+            <td>Details</td>
+            <td>@Model.RAddressDetail</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>@{var rc = new DMSContext().City.FirstOrDefault(c => c.CId == Model.RCId).CName;} @rc</td>
+        </tr>
+        <tr>
+            <td>Sender</td>
+            <td>@{var sndr = new DMSContext().SenderInfo.FirstOrDefault(sn => sn.SId == Model.SId).SName;} @sndr</td>
+        </tr>
+    </tbody>
+</table>
+<div class="modal-footer">
+    <a class="btn btn-secondary text-white" data-dismiss="modal" aria-label="Close"><i class="fas fa-chevron-circle-left "></i> Cancel</a>
+</div>

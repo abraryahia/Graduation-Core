@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "Report";
+    Layout = "_Layout";
+}
+<title>Make Report</title>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery.unobtrusive-ajax.js"></script>
+<style>
+
+    /* Style the tab */
+    .tab {
+        border: 1px solid;
+        background-color: #f1f1f1;
+    }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+            /* Change background color of buttons on hover */
+            .tab button:hover {
+                background-color: #ddd;
+            }
+
+            /* Create an active/current tablink class */
+            .tab button.active {
+                background-color: #ccc;
+            }
+
+    /* Style the tab content */
+    .container {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+</style>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<script>
+    function search(evt, searchway) {
+        var i, container, searchPackage;
+        container = document.getElementsByClassName("container");
+        for (i = 0; i < container.length; i++) {
+            container[i].style.display = "none";
+        }
+        searchPackage = document.getElementsByClassName("searchPackage");
+        for (i = 0; i < searchPackage.length; i++) {
+            searchPackage[i].className = searchPackage[i].className.replace(" active", "");
+        }
+        document.getElementById(searchway).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+<div class="text-center">
+    <div class="tab text-center">
+        <button class="searchPackage " onclick="search(event, 'BySSN')"><i class="fa fa-fw fa-search"></i> Search by SSN</button>
+        <button class="searchPackage" onclick="search(event, 'findPackage')"><i class="fa fa-fw fa-search"></i>Find Package</button>
+    </div>
+</div>
+<br />
+
+
+<div id="findPackage" class="container " style="width:36%;margin-top:3%">
+
+    <h2 class="text-center text-info">Find Package</h2>
+
+    <form asp-action="ReportPakage"
+          data-ajax="true"
+          data-ajax-method="GET"
+          data-ajax-mode="replace"
+          data-ajax-update="#packdata">
+        <input type="text" name="ID" placeholder="Package ID" class="form-control" />
+        <input type="submit" value="Search" class="btn btn-block btn-primary" style="margin-top:2%" />
+
+    </form>
+</div>
+<div id="BySSN" class="container " style="width:36%;margin-top:3%">
+    <hr />
+    <h2 class="text-center text-info">Find By SSN</h2>
+    <form asp-action="Packages"
+          data-ajax="true"
+          data-ajax-method="GET"
+          data-ajax-mode="replace"
+          data-ajax-update="#packdata">
+        <input type="text" name="ID" placeholder="Your SSN" class="form-control" />
+        <input type="submit" value="Search" class="btn btn-block btn-primary" style="margin-top:2%" />
+
+    </form>
+</div>
+<div id="packdata">
+</div>
+
+
+
+
+

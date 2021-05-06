@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Graduation_Core.Models.Locations>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Roads</h1>
+
+<p>
+    <a asp-action="Create">Add New Line</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+            From
+            </th>
+            <th>
+                To
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LTo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LId">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.LId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

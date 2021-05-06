@@ -1,0 +1,62 @@
+﻿@model Graduation_Core.Models.SenderInfo
+
+@{
+    ViewData["Title"] = "GetSender";
+}
+
+<div>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SMobile)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SMobile)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SEmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SEmail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SSsn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SSsn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SCId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SCId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SAddressDetail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SAddressDetail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SCDId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SCDId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.SId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

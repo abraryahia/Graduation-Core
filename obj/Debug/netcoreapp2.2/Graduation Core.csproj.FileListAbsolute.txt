@@ -1,0 +1,358 @@
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.deps.json
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.json
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.dev.json
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.dll
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.pdb
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.dll
+F:\Project\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csprojAssemblyReference.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CoreCompileInputs.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfoInputs.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfo.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.input.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.output.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorCoreGenerate.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\EmployeePackages.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetReciver.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetSender.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Add.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Delete.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Edit.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PackageDetails.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReciverView.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderDetails.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderProfile.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cache
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cs
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.dll
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.pdb
+F:\Project\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CopyComplete
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.deps.json
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.json
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.dev.json
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.dll
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.pdb
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.dll
+F:\Project\Core Map\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csprojAssemblyReference.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CoreCompileInputs.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfoInputs.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfo.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.input.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.output.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorCoreGenerate.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\EmployeePackages.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetReciver.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetSender.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Send.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Add.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Delete.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Edit.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PackageDetails.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReciverView.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderDetails.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cache
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.dll
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.pdb
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CopyComplete
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Track.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Sent.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Index.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Login.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Register.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_TrackPackage.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.deps.json
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.json
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.dev.json
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.dll
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.pdb
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.dll
+E:\GraduationCoreMDS\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csprojAssemblyReference.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CoreCompileInputs.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfoInputs.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfo.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.input.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.output.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorCoreGenerate.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\EmployeePackages.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetReciver.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetSender.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Index.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Login.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Register.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Send.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Track.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Add.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Delete.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Edit.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PackageDetails.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReciverView.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderDetails.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderProfile.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Sent.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_TrackPackage.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cache
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cs
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.dll
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.pdb
+E:\GraduationCoreMDS\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CopyComplete
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.deps.json
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.json
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.dev.json
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.dll
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.pdb
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.dll
+E:\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csprojAssemblyReference.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CoreCompileInputs.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfoInputs.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfo.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.input.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.output.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorCoreGenerate.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\EmployeePackages.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetReciver.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetSender.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Index.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Login.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Register.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Report.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Send.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Track.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Add.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Delete.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Edit.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PackageDetails.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_packages.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReciverView.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReportPakage.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderDetails.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderProfile.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Sent.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_TrackPackage.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cache
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cs
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.dll
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.pdb
+E:\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CopyComplete
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\AdminProfile.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Denied.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Profile.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Report.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_packages.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReportPakage.g.cshtml.cs
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.deps.json
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.json
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.dev.json
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.dll
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CoreCompileInputs.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfoInputs.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfo.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.input.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.output.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorCoreGenerate.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\EmployeePackages.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetReciver.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetSender.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\AdminProfile.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Denied.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Index.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Login.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Profile.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Register.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Report.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Send.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Track.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Add.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Delete.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Edit.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PackageDetails.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_packages.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReciverView.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReportPakage.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderDetails.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Sent.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_TrackPackage.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cs
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.pdb
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.dll
+D:\New folder\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csprojAssemblyReference.cache
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.dll
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.pdb
+D:\New folder\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CopyComplete
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.deps.json
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.json
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.runtimeconfig.dev.json
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.dll
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.pdb
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.dll
+D:\Core\Graduation Core\bin\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csprojAssemblyReference.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CoreCompileInputs.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorAssemblyInfo.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfoInputs.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.AssemblyInfo.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.input.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.TagHelpers.output.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorCoreGenerate.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\EmployeePackages.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetReciver.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\GetSender.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\List.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\AdminProfile.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Denied.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Index.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Login.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Profile.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Register.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Report.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Send.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Package\Track.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Create.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Delete.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Details.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Edit.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Index.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Add.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Delete.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Edit.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_PackageDetails.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_packages.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReciverView.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ReportPakage.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SenderDetails.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Sent.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_TrackPackage.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cache
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.RazorTargetAssemblyInfo.cs
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.Views.pdb
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.dll
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.pdb
+D:\Core\Graduation Core\obj\Debug\netcoreapp2.2\Graduation Core.csproj.CopyComplete
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Create.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Delete.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Details.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Edit.g.cshtml.cs
+F:\Project\Core Map\Graduation Core\obj\Debug\netcoreapp2.2\Razor\Views\Prices\Index.g.cshtml.cs

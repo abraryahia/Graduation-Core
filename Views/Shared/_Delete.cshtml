@@ -1,0 +1,62 @@
+﻿@model Graduation_Core.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="alert alert-danger  text-center mx-auto" role="alert">
+    Are you sure you want to delete @Model.EmpName
+</div>
+<table class="table mx-auto text-center">
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>@Model.EmpName</td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+
+            <td>@Model.EmpMobile</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+
+            <td>@Model.EmpEmail</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+
+            <td>@Model.EmpAddress</td>
+        </tr>
+        <tr>
+            <td>SSN</td>
+
+            <td>@Model.EmpSsn</td>
+        </tr>
+        <tr>
+            <td>Details</td>
+
+            <td>@Model.EmpAddressDetails</td>
+        </tr>
+        <tr>
+            <td>City</td>
+
+            <td>@Model.EmpC.CName</td>
+        </tr>
+        <tr>
+
+            <td>Location</td>
+            <td>@Model.EmpL.LTo</td>
+        </tr>
+    </tbody>
+</table>
+<hr />
+
+<div class="row mx-auto">
+    <a  class="btn btn-success text-white mx-auto"  data-dismiss="modal" aria-label="Close" ><i class="fas fa-chevron-circle-left "></i> Cancel</a>
+    <form asp-action="Delete" class="mx-auto">
+        <input type="hidden" asp-for="EmpId" />
+        @Html.HiddenFor(m => m.EmpId)
+        <button type="submit" class="btn btn-danger "><i class="fas fa-trash-alt "></i> Delete </button>
+    </form>
+
+</div>

@@ -1,0 +1,44 @@
+﻿@model Graduation_Core.Models.LoginViewModel
+@{
+    ViewData["Title"] = "AdminProfile";
+}
+
+<title>Profile @Model.FullName</title>
+
+<div class="container" style="margin-top:5%">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top mx-auto" height="200" style="width:70%" src="~/Images/2.png" />
+                <div class="card-body">
+                    <h5 class="card-title">Mange Employees</h5>
+                    <p claxss="card-text">Manage Employees , Monitor and Assign Packages To Each Employee</p>
+                    <a href="~/employees/index" class="btn btn-primary">Manage</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/proship-track-and-trace.jpg" style="height:11rem" />
+                <div class="card-body">
+                    <h5 class="card-title">Track   Package</h5>
+                    <p class="card-text">Track Your Package Point By Point  And Make Sure Your Package Goes The Right Way    </p>
+                    <a href="#" class="btn btn-primary" id="prfTrack">Track Package</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top mx-auto"  src="~/Images/report-image.png" style="height:14rem;width:75%" />
+                <div class="card-body">
+                    <h5 class="card-title">Make Report</h5>
+                    <p class="card-text">Make Report For Your Packages</p>
+                    <a href="~/Package/report" class="btn btn-primary">Make Report</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+

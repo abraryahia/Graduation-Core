@@ -1,0 +1,10 @@
+@model IEnumerable<Graduation_Core.Models.Employee>
+
+@foreach (var emp in Model)
+{
+    <tr>
+
+        <td>@emp.EmpName</td>
+        <td>@emp.EmpMobile</td>
+    </tr>
+}

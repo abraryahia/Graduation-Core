@@ -1,0 +1,108 @@
+﻿@using Microsoft.AspNetCore.Session;
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
+    </environment>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light justify-content-between bg-dark">
+            <a class="navbar-brand text-white" href="~/home/index">MDS</a>
+            @{
+                var usrName = @HttpContextAccessor.HttpContext.Session.GetString("username");
+            }
+            @if (usrName != null)
+            {
+                <div class="form-inline">
+                    <p class="text-white mr-sm-4  my-2 my-sm-2"> ID : @HttpContextAccessor.HttpContext.Session.GetString("uid")</p>
+
+                    <div class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white mr-sm-4  my-2 my-sm-2" data-toggle="dropdown" href="~/manage/index?id=@int.Parse(HttpContextAccessor.HttpContext.Session.GetString("uid").ToString())" role="button" aria-haspopup="true" aria-expanded="false">@usrName</a>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item" href="~/manage/profile">Profile</a>
+                            <a class="dropdown-item" href="~/manage/edit">Edit</a>
+                            <a href="~/manage/logout" class="btn btn-outline-success my-2 my-sm-0 dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <form class="form-inline" asp-action="login" asp-controller="Manage" method="post">
+                    <input type="text" name="UserName" class="form-control mr-sm-2" placeholder="Username" />
+                    <input type="password" name="Password" class="form-control mr-sm-2" placeholder="Password" />
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
+                    <a href="~/manage/register" class="btn btn-outline-success my-2 my-sm-0" style="margin-left:5px">Rigster</a>
+                </form>
+            }
+        </nav>
+    </header>
+
+    <partial name="_CookieConsentPartial" />
+
+    @RenderBody()
+
+    <div class="accordion col-lg-4 col-sm-12 fixed-bottom " style="border:none" id="chatExample">
+        <div class="card">
+            <div class="card-header btn  text-white" style="background:#0474ac;border-radius:15px 15px 0px 0px;border:none;outline:none" id="headingChat" data-toggle="collapse" data-target="#openChat" aria-expanded="true" aria-controls="collapseOne">
+                Open Chat
+            </div>
+            <div id="openChat" style="border:none" class="collapse show" aria-labelledby="headingChat" data-parent="#chatExample">
+                <iframe src='https://webchat.botframework.com/embed/mdschat-bot?s=c5J_3R34ciA.HyadPzuK8yjCQCjs076hpjWKN14U1nGeprIq1YRh4pU' style='width: 100%; min-height: 350px;padding:0px;margin:0px;'></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="border-top footer text-muted text-center">
+        <div class="container">
+            &copy; @DateTime.Now.Year - MDS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+        </script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#headingChat').click();
+    });
+    $(document).focus();
+</script>

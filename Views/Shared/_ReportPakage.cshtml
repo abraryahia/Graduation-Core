@@ -1,0 +1,61 @@
+﻿@model Graduation_Core.Models.PackagesInfo
+@{
+    ViewBag.Title = "ReportPage";
+
+}
+    <table class="table" id="Grid">
+        <thead>
+            <tr>
+                <th>Wieght</th>
+                <th>Fragial</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Early Delivery</th>
+                <th>Delivery Date</th>
+                <th>Sender</th>
+                <th>Reciever</th>
+                <th>Line</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>@Model.PWeight</td>
+                <td>@Model.PFaragial</td>
+                <td>@Model.PPrice</td>
+                <td>@Model.Description</td>
+                <td>@Model.Earlydelivery</td>
+                <td>@Model.Deleverydate</td>
+                <td>@{var sender = new DMSContext().SenderInfo.FirstOrDefault(s => s.SSsn == Model.SSsn);} <a data-toggle="modal" data-target="#senderModal-@Model.PId" href="#">@sender.SName</a></td>
+                <td>@{var reciver = new DMSContext().ReceiverInfo.FirstOrDefault(r => r.RSsn == Model.RSsn);} <a data-toggle="modal" data-target="#reciverModal-@Model.PId" href="#">@reciver.RName</a> </td>
+                <td>
+                    @{
+                        var loc = new DMSContext().Locations.FirstOrDefault(l => l.LId == Model.PLId);
+                        var line = loc.LFrom + " <===> " + loc.LTo;
+
+                    }
+                    @line
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<input type="button" id="btnExport" value="Export" onclick="Export()" class="auto-style5" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/html2canvas.min.js"></script>
+<script src="~/pdfmake.min.js"></script>
+<script type="text/javascript">
+    function Export() {
+        html2canvas(document.getElementById('Grid'), {
+            onrendered: function (canvas) {
+                var data = canvas.toDataURL();
+                var docDefinition = {
+                    content: [{
+                        image: data,
+                        width: 500
+                    }]
+                };
+                pdfMake.createPdf(docDefinition).download("Package.pdf");
+            }
+        });
+    }
+</script>

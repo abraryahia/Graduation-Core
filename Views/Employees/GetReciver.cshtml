@@ -1,0 +1,72 @@
+﻿@model Graduation_Core.Models.ReceiverInfo
+
+@{
+    ViewData["Title"] = "GetReciver";
+}
+
+<h1>GetReciver</h1>
+
+<div>
+    <h4>ReceiverInfo</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RMobile)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RMobile)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.REmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.REmail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RSsn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RSsn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RCId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RCId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RAddressDetail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RAddressDetail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RCDId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RCDId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.S)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.S.SAddress)
+        </dd>
+    </dl>
+</div>
+<div>
+    
+    <a asp-action="Index">Back to List</a>
+</div>

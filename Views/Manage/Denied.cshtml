@@ -1,0 +1,10 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor accessor
+@{
+    ViewData["Title"] = "Denied";
+}
+
+<div class="alert alert-danger text-center">
+    Access to User :  @accessor.HttpContext.Session.GetString("username").ToString()  is Denied Go Back To  <a href="~/home/index" />Home</a>
+</div>
+

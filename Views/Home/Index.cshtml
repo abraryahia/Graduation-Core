@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container" style="margin-top:5%">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/loading.jpg" />
+
+                <div class="card-body">
+                    <h5 class="card-title">Send Package</h5>
+                    <p claxss="card-text">Send Package And Get Fast And Very Good Offers</p>
+                    <a href="~/package/send" class="btn btn-primary">Send Package</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/proship-track-and-trace.jpg" style="height:11rem" />
+                <div class="card-body">
+                    <h5 class="card-title">Track   Package</h5>
+                    <p class="card-text">Track Your Package Point By Point  And Make Sure Your Package Goes The Right Way    </p>
+                    <a href="#" class="btn btn-primary" id="btnTrackPackage">Track Package</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="margin-top:5%">
+            <div class="card">
+                <img class="card-img-top" src="~/Images/report-image.png" style="height:14rem;width:75%" />
+                <div class="card-body">
+                    <h5 class="card-title">Make Report</h5>
+                    <p class="card-text">Make Report For Your Packages</p>
+                    <a href="~/Package/report" class="btn btn-primary">Make Report</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br />
+<div id="trackPackagePartial" class="row col-lg-4 mx-auto">
+   
+       <partial name="_TrackPackage" />
+   
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#trackPackagePartial').hide();
+        $('#btnTrackPackage').click(function () {
+
+            $('#trackPackagePartial').toggle(300);
+        });
+
+
+
+
+
+    });
+</script>
